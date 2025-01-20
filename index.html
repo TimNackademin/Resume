@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Tim - C# Developer
+    </title>
+
+    <link rel="icon" href="/assets/T-FLhXpq3w.png" type="image/png">
+
+    <script defer src="src/main.js"></script>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- Fontawsome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+
+  <link rel="stylesheet" crossorigin href="/assets/index-Cvt9SVYj.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow fixed-top p-0">
+            <div class="container">
+                <a class="navbar-brand" href="/">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAAAXNSR0IArs4c6QAAA81JREFUeF7tnVFW4jAUhhNcwRwU5Y3ZCa5EWYm6Ep2V6E6mbyjKcQU2c9oZPA5Smj+54ZL095Ukt/k+bmt7m2AN/1QJWNXoDG4oQPlLQAEUoExAOTwzgAKUCSiHZwZQgDIB5fDMAApQJqAcnhmQu4Dl8n1mRvWVtW5ujJ0rz+cQ4StjXGWNreqP0d10+qOKCRqVAcuX9Y215jbmADLvWzlnHqbn47vQeQQLeF69PQ7kG+/B1j1dTE4vPRp+axIkYLl6u7bG3ocELLWPc+Y2JBNgAc05357Uv0sFGTGvytl6MT07e0LGwAXwvN/JNyQLYAEvq/W9M+YasTyctvi1ABbwvFo3p5/ZcKBCM60uJuOfSI8QAW5fgIvJGB4TOWDtts+rtej8YVjSB6ANFI0vPX8KAA1QAAhMujkFSBMFx6MAEJh0cwqQJgqORwEgMOnmFCBNFByPAkBg0s0pQJooOB4FgMCkm1OANFFwvMEIaKpu08npA8hnZ/OmiBRbPN8MPAgB/2oO89iCdwNt+fo6t270GFIs2WWzeAFbBZ+otw428DcgJSQULaCj2hZUa92GLyWhWAE9pU5IQhd8CQlFCvCsM3tJ6IMfK6E4AZ7wW27WmIfzyXix7z8j5IWxkGtCUQIQ+Mb4vXHw972lj3vft/ZQCcUISAF/kxkpJRQhICX81BKyF3AI+CklZC3gkPBTSchWgAb8FBKyFKAJX1pCdgKOAb6khOwEgMuY4Jdb0cfV0I2acYvtR+LZCWgfCWNrCpJJiIXfzCVLAccgQQJ+1gI0JUjBz16AhgRJ+EUIOKQEafjFCDiEhBTwixKQUkIq+MUJSCEhJfwiBSASnK0v+xZC+y4kdztusnxu6rK9D+ibXN/Nmg/8/x85dK/mD4VfbAZ8guu4Y0bg90mIgV+8gF2noxD4nxK2NhWJhT8IAV8lxMDfliABfzACWgmCL9RKjlXsRbjvIn0sn1OAsgkKoADZ3UKUecLhmQEwMtkOFCDLEx6NAmBksh0oQJYnPBoFwMhkO1CALE94NAqAkcl2oABZnvBoFAAjk+1wDAK4cesep+i+qQHbVnLb+i7+Pqs4t/vCAvpqt7IJn9do6IrLZna4AG5f3/mtCKngwQLaahV/wOGbhNCSZ5CAJjq28iWvUwl+tH6LyHeNGyygzQRs4QU+rwx6hJz3v04rSkArYfk+G53UN864me/2ABlw3XeI7c9YOWefTD36FbsTV7SAzGGqHz4FKCugAApQJqAcnhlAAcoElMMzAyhAmYByeGYABSgTUA7PDKAAZQLK4f8AJMjYjt9JHqcAAAAASUVORK5CYII=" alt="Logo" class="me-1">
+                    <H1>Tim Nyman</H1>
+                </a>
+
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="container px-3">
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link me-lg-3" href="#start">0. Start</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link me-lg-3" href="#about">1. About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link me-lg-3" href="#skills">2. Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link me-lg-3" href="#Portfolio">3. Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link me-lg-3" href="#Testimonials">4. Testimonials</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link me-lg-3" href="#Contact">5. Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link me-lg-3" href="Resume/2024 CV Tim.pdf" target="_blank">6. Resume</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="bg-dark py-5 snap-scrolling">
+
+        <div class=scroll-indicator>
+            <a href="#start" class="active" data-section="Start"></a>
+            <a href="#about" data-section="About"></a>
+            <a href="#skills" data-section="Skills"></a>
+            <a href="#Portfolio" data-section="Portfolio"></a>
+            <a href="#Testimonials" data-section="Testimonials"></a>
+            <a href="#Contact" data-section="Contact"></a>
+
+        </div>
+
+        <section id="start" class="container px-5">
+            <div class="row align-items-center my-5 gx-5">
+                <div class="col-lg-8 col-xl-7 col-xxl-6">
+                    <div class="my-5">
+                        <h2 class="custom-text text-center fw-bold mb-2">Hi! I am Tim,</h2>
+                        <h2 class="custom-text text-center fw-bold mb-2">a C# & .NET developer in the making</h2>
+                        <p class="text-center fw-bold lead mb-3 normal-text">
+                            .NET & C# Student - Always learning, Always improving.
+                        </p>
+                        <div class="d-grid gap-3 d-sm-flex justify-content-center">
+                            <a class="my-button" href="#Portfolio">
+                                View my portfolio
+                                <img src="/assets/C_Sharp_Logo_2023.svg-C4lM2VwR.png" class="ms-2">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-xxl-6 text-end">
+                    <img class="img-fluid rounded-circle my-5" src="/assets/Profile%20Picture-BpFAqFsd.png">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="container mb-5">
+            <div class="row">
+                <article class="container py-5 text-center bg-dark">
+                    <div class="row justify-content-center">
+                        <h2 class="fw-bold custom-text">About</h2>
+                        <p class="lead normal-text mb-5">
+                            A self-motivated, knowledge loving individual who thrives in environments where I can
+                            express
+                            creativity in my own way.
+                        </p>
+                    </div>
+                </article>
+
+
+                <div class="col-lg-4 mx-auto mb-5">
+                    <div class="d-flex mb-5 about">
+                        <span class="material-icons-outlined m-auto text-primary">palette</span>
+                    </div>
+                    <h5 class="custom-text">Design</h5>
+                    <p class="normal-text mb-0">
+                        I create functioning, easy-to-manage and scalable applications.
+                    </p>
+                </div>
+
+                <div class="col-lg-4 mx-auto mb-5">
+                    <div class="d-flex mb-5 about">
+                        <span class="material-icons-outlined m-auto text-primary">code</span>
+                    </div>
+                    <h5 class="custom-text">Development</h5>
+                    <p class="normal-text mb-0">
+                        I create functioning, easy-to-manage and scalable applications.
+                    </p>
+                </div>
+
+                <div class="col-lg-4 mx-auto mb-5">
+                    <div class="d-flex mb-5 about">
+                        <span class="material-icons-outlined m-auto text-primary">settings</span>
+                    </div>
+                    <h5 class="custom-text">Launch & Maintenence</h5>
+                    <p class="normal-text mb-0">
+                        I create functioning, easy-to-manage and scalable applications.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="skills" class="container mb-5">
+            <div class="row">
+                <article class="container py-5 text-center bg-dark">
+                    <div class="row justify-content-center">
+                        <h2 class="fw-bold custom-text">Skills</h2>
+                        <p class="lead normal-text mb-5">
+                            A self-motivated, knowledge loving individual who thrives in environments where I can
+                            express
+                            creativity in my own way.
+                        </p>
+                    </div>
+                </article>
+
+
+                <div class="col-lg-4 mx-auto mb-5">
+                    <div class="d-flex mb-5 about">
+                        <span class="material-icons-outlined m-auto text-primary">palette</span>
+                    </div>
+                    <h5 class="custom-text">Design</h5>
+                    <p class="normal-text mb-0">
+                        I create functioning, easy-to-manage and scalable applications.
+                    </p>
+                </div>
+
+                <div class="col-lg-4 mx-auto mb-5">
+                    <div class="d-flex mb-5 about">
+                        <span class="material-icons-outlined m-auto text-primary">code</span>
+                    </div>
+                    <h5 class="custom-text">Development</h5>
+                    <p class="normal-text mb-0">
+                        I create functioning, easy-to-manage and scalable applications.
+                    </p>
+                </div>
+
+                <div class="col-lg-4 mx-auto mb-5">
+                    <div class="d-flex mb-5 about">
+                        <span class="material-icons-outlined m-auto text-primary">settings</span>
+                    </div>
+                    <h5 class="custom-text">Launch & Maintenence</h5>
+                    <p class="normal-text mb-0">
+                        I create functioning, easy-to-manage and scalable applications.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="Portfolio" class="container py-5 text-center">
+            <div class="row justify-content-center">
+                <h2 class="fw-bold custom-text">Portfolio</h2>
+                <p class="lead normal-text mb-5">
+                    View my portfolio!
+                </p>
+            </div>
+
+            <div class="container mb-5">
+                <div class="row">
+                    <div class="col-lg-4 mx-auto mb-5">
+                        <div class="card h-100 shadow-lg border-0 bg-light">
+                            <img class="card-img-top" src="/assets/Database-DPGGO68T.png">
+                            <div class="card-body p-3">
+                                <h5 class="card-title mb-1">Database project</h5>
+                                <div class="mb-2">
+                                    <div class="badge bg-primary rounded-pill">C#</div>
+                                    <div class="badge bg-primary rounded-pill">MSSQL</div>
+                                </div>
+                                <p class="card-text">
+                                    My database project using MSSQL and C# - Code first approach.
+                                </p>
+                            </div>
+                            <div class="card-footer bg-transparent mb-3">
+                                <a class="btn btn-outline-primary btn-sm text-uppercase"
+                                    href="https://github.com/TimNackademin/InlamningDatabas" target="_blank">
+                                    <span class="material-icons-outlined me-1">code</span>
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 mx-auto mb-5">
+                        <div class="card h-100 shadow-lg border-0 bg-light">
+                            <img class="card-img-top" src="/assets/group%20project-wj7DBBl8.png">
+                            <div class="card-body p-3">
+                                <h5 class="card-title mb-1">Group Project</h5>
+                                <div class="mb-2">
+                                    <div class="badge bg-primary rounded-pill">C#</div>
+                                </div>
+                                <p class="card-text">
+                                    Group project where we created a recipe book with CRUD functionalty using C# and
+                                    .NET.
+                                </p>
+                            </div>
+                            <div class="card-footer bg-transparent mb-3">
+                                <a class="btn btn-outline-primary btn-sm text-uppercase"
+                                    href="https://github.com/TimNackademin/Group-Project" target="_blank">
+                                    <span class="material-icons-outlined me-1">code</span>
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="Testimonials" class="text-center container py-5 normal-text">
+            <div class="row justify-content-center">
+                <h2 class="fw-bold custom-text">Testimonials</h2>
+                <p class="lead normal-text mb-5">
+                    Here are what some of my previous employers and co-workers have to say about me!
+                </p>
+            </div>
+
+            <div class="container mb-5">
+                <div class="row">
+                    <div class="col-lg-4 mx-auto mb-5">
+                        <div class="text-center fs-4 fst-italic mb-4 px-2">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Modi commodi debitis reiciendis ex labore? Possimus
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center testimonial">
+                            <img class="rounded-circle me-3" src="/assets/Portrait-BCcYG91P.png">
+                            <div class="fw-bold">
+                                Amed Reza
+                                <span class="text-primary mx-1">/</span>
+                                CEO, Company 1
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mx-auto mb-5">
+                        <div class="text-center fs-4 fst-italic mb-4 px-2">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Modi commodi debitis reiciendis ex labore? Possimus
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center testimonial">
+                            <img class="rounded-circle me-3" src="/assets/Portrait-BCcYG91P.png">
+                            <div class="fw-bold">
+                                Tim Nyman
+                                <span class="text-primary mx-1">/</span>
+                                CEO, Company 2
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mx-auto mb-5">
+                        <div class="text-center fs-4 fst-italic mb-4 px-2">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Modi commodi debitis reiciendis ex labore? Possimus
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center testimonial">
+                            <img class="rounded-circle me-3" src="/assets/Portrait-BCcYG91P.png">
+                            <div class="fw-bold">
+                                Ahmed Miran
+                                <span class="text-primary mx-1">/</span>
+                                CEO, Company 1
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Contact" class="text-start py-5 align-items-center ">
+            <div class="container py-5">
+                <div class="row justify-content-start normal-text">
+                    <h2 class="fw-bold">Contact</h2>
+                    <p class="lead mb-2 normal-text">
+                        Do you want to contact me?
+                    </p>
+                </div>
+            </div>
+
+            <div class="container">
+                <form action="https://formshow.systementor.se/" method="post">
+                    <div class="form-group">
+                        <label for="InputEmail" class="col-form-label normal-text">Email</label>
+                        <input type="email" class="form-control" id="InputEmail" name="email" placeholder="Enter email"
+                            required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Subject" class="col-form-label normal-text">Subject</label>
+                        <input type="text" class="form-control" id="Subject" name="subject"
+                            placeholder="Type subject here." required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="InputText" class="col-form-label normal-text">Message</label>
+                        <textarea class="form-control" id="InputText" name="message" rows="3"
+                            placeholder="Type message here." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary my-2 my-button">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class=bg-dark>
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGAAAABgCAYAAADimHc4AAAAAXNSR0IArs4c6QAAA81JREFUeF7tnVFW4jAUhhNcwRwU5Y3ZCa5EWYm6Ep2V6E6mbyjKcQU2c9oZPA5Smj+54ZL095Ukt/k+bmt7m2AN/1QJWNXoDG4oQPlLQAEUoExAOTwzgAKUCSiHZwZQgDIB5fDMAApQJqAcnhmQu4Dl8n1mRvWVtW5ujJ0rz+cQ4StjXGWNreqP0d10+qOKCRqVAcuX9Y215jbmADLvWzlnHqbn47vQeQQLeF69PQ7kG+/B1j1dTE4vPRp+axIkYLl6u7bG3ocELLWPc+Y2JBNgAc05357Uv0sFGTGvytl6MT07e0LGwAXwvN/JNyQLYAEvq/W9M+YasTyctvi1ABbwvFo3p5/ZcKBCM60uJuOfSI8QAW5fgIvJGB4TOWDtts+rtej8YVjSB6ANFI0vPX8KAA1QAAhMujkFSBMFx6MAEJh0cwqQJgqORwEgMOnmFCBNFByPAkBg0s0pQJooOB4FgMCkm1OANFFwvMEIaKpu08npA8hnZ/OmiBRbPN8MPAgB/2oO89iCdwNt+fo6t270GFIs2WWzeAFbBZ+otw428DcgJSQULaCj2hZUa92GLyWhWAE9pU5IQhd8CQlFCvCsM3tJ6IMfK6E4AZ7wW27WmIfzyXix7z8j5IWxkGtCUQIQ+Mb4vXHw972lj3vft/ZQCcUISAF/kxkpJRQhICX81BKyF3AI+CklZC3gkPBTSchWgAb8FBKyFKAJX1pCdgKOAb6khOwEgMuY4Jdb0cfV0I2acYvtR+LZCWgfCWNrCpJJiIXfzCVLAccgQQJ+1gI0JUjBz16AhgRJ+EUIOKQEafjFCDiEhBTwixKQUkIq+MUJSCEhJfwiBSASnK0v+xZC+y4kdztusnxu6rK9D+ibXN/Nmg/8/x85dK/mD4VfbAZ8guu4Y0bg90mIgV+8gF2noxD4nxK2NhWJhT8IAV8lxMDfliABfzACWgmCL9RKjlXsRbjvIn0sn1OAsgkKoADZ3UKUecLhmQEwMtkOFCDLEx6NAmBksh0oQJYnPBoFwMhkO1CALE94NAqAkcl2oABZnvBoFAAjk+1wDAK4cesep+i+qQHbVnLb+i7+Pqs4t/vCAvpqt7IJn9do6IrLZna4AG5f3/mtCKngwQLaahV/wOGbhNCSZ5CAJjq28iWvUwl+tH6LyHeNGyygzQRs4QU+rwx6hJz3v04rSkArYfk+G53UN864me/2ABlw3XeI7c9YOWefTD36FbsTV7SAzGGqHz4FKCugAApQJqAcnhlAAcoElMMzAyhAmYByeGYABSgTUA7PDKAAZQLK4f8AJMjYjt9JHqcAAAAASUVORK5CYII=" alt="Logo" class="me-1" href="index.html">
+                <H1 class="custom-text">Tim Nyman</H1>
+            </a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
